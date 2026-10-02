@@ -1,0 +1,21 @@
+Sample_ID,pH,Turbidity_NTU,TDS_mg_L,BOD_mg_L,COD_mg_L,Temperature_C,EC_uS_cm,DO_mg_L,Chloride_mg_L,Hardness_mg_L,Nitrate_mg_L,Phosphate_mg_L,Sulfate_mg_L,Ammonia_mg_L,Oil_Grease_mg_L,Reuse_Suitability,Recommendation
+GW-2026-001,7.2,3.4,320,8.5,35,22.4,510,5.8,110,180,4.2,0.8,45,0.3,1.2,Suitable for Reuse,Toilet Flushing & Garden Irrigation
+GW-2026-002,6.8,12.5,580,28.0,95,24.1,890,3.2,190,260,8.5,2.1,85,1.1,4.5,Suitable After Treatment,Controlled Garden Irrigation
+GW-2026-003,5.2,45.0,1150,85.0,240,27.5,1680,1.5,380,420,18.2,5.6,180,3.8,12.4,Not Recommended,Requires Advanced Industrial Treatment
+GW-2026-004,7.5,2.1,280,6.2,28,21.0,460,6.4,85,150,3.1,0.5,32,0.2,0.8,Suitable for Reuse,Unrestricted Landscape Irrigation
+GW-2026-005,7.1,4.8,390,9.8,42,23.2,620,5.1,130,210,5.0,1.1,52,0.4,1.8,Suitable for Reuse,Toilet Flushing & Vehicle Washing
+GW-2026-006,6.4,18.2,690,34.5,115,25.0,980,2.8,220,290,11.0,2.8,95,1.5,6.2,Suitable After Treatment,Landscape Irrigation & Construction
+GW-2026-007,8.8,32.0,920,62.0,185,28.2,1420,1.9,310,380,15.5,4.2,145,2.9,9.8,Not Recommended,Not Recommended for Direct Reuse
+GW-2026-008,7.3,3.9,340,7.9,32,21.8,530,6.0,105,170,3.8,0.7,40,0.3,1.0,Suitable for Reuse,Toilet Flushing & Garden Irrigation
+GW-2026-009,6.9,8.4,460,18.2,68,23.5,740,4.2,150,220,6.8,1.4,68,0.7,2.8,Suitable After Treatment,Toilet Flushing & Construction
+GW-2026-010,7.6,1.8,260,5.1,22,20.5,420,6.8,75,130,2.5,0.4,28,0.1,0.5,Suitable for Reuse,All Non-Potable Applications
+GW-2026-011,7.0,4.1,350,8.8,38,22.0,550,5.5,115,190,4.5,0.9,48,0.4,1.4,Suitable for Reuse,Toilet Flushing & Garden Irrigation
+GW-2026-012,6.6,14.8,610,31.0,105,24.5,920,3.0,205,270,9.2,2.4,90,1.3,5.1,Suitable After Treatment,Garden Irrigation & Landscaping
+GW-2026-013,5.8,38.0,1080,78.0,220,26.8,1590,1.8,350,400,16.8,5.1,165,3.4,11.0,Not Recommended,Requires Multi-stage Treatment
+GW-2026-014,7.4,2.8,300,7.0,30,21.5,490,6.1,95,160,3.5,0.6,38,0.2,0.9,Suitable for Reuse,Toilet Flushing & Landscaping
+GW-2026-015,7.2,5.2,410,11.2,46,23.0,640,4.9,140,225,5.4,1.2,58,0.5,2.1,Suitable for Reuse,Garden Irrigation & Vehicle Washing
+GW-2026-016,6.5,22.0,760,42.0,135,25.8,1090,2.5,245,310,12.5,3.2,110,1.8,7.5,Suitable After Treatment,Construction & Controlled Irrigation
+GW-2026-017,8.4,28.5,880,55.0,170,27.0,1350,2.1,290,360,14.0,3.9,135,2.5,8.9,Not Recommended,High Alkalinity & Organic Load
+GW-2026-018,7.3,3.1,310,7.5,31,21.9,500,6.2,100,165,3.6,0.6,36,0.2,0.9,Suitable for Reuse,Toilet Flushing & Garden Irrigation
+GW-2026-019,6.8,9.8,490,21.5,75,23.8,780,3.9,165,240,7.2,1.6,72,0.8,3.2,Suitable After Treatment,Toilet Flushing & Sub-surface Irrigation
+GW-2026-020,7.7,1.5,240,4.8,20,20.2,390,7.0,70,120,2.2,0.3,25,0.1,0.4,Suitable for Reuse,All Non-Potable Applications

@@ -1,0 +1,41 @@
+================================================================================
+GREYAI — GREYWATER QUALITY DATASET DOCUMENTATION (REACT VERSION)
+================================================================================
+
+PROJECT TITLE:
+AI-Driven Intelligent Greywater Reuse Recommendation System Based on Water Quality Analysis
+
+DATASET PURPOSE:
+This synthetic dataset models greywater quality parameters collected from domestic sources. It provides standard physical, chemical, and biological water quality indicators to evaluate reuse suitability for non-potable applications (toilet flushing, garden irrigation, landscape irrigation, vehicle washing, construction).
+
+COLUMN DEFINITIONS & UNITS:
+1.  Sample_ID          : Unique sample identifier
+2.  pH                 : Acidity/Alkalinity level (Standard pH units, reference range: 6.5–8.5)
+3.  Turbidity_NTU      : Clarity measurement (NTU, reference range: < 5 NTU)
+4.  TDS_mg_L           : Total Dissolved Solids (mg/L, reference range: < 500 mg/L)
+5.  BOD_mg_L           : Biochemical Oxygen Demand (mg/L, reference range: < 10 mg/L)
+6.  COD_mg_L           : Chemical Oxygen Demand (mg/L, reference range: < 50 mg/L)
+7.  Temperature_C      : Water temperature (°C, typical range: 18–30 °C)
+8.  EC_uS_cm           : Electrical Conductivity (µS/cm, reference range: < 1000 µS/cm)
+9.  DO_mg_L            : Dissolved Oxygen (mg/L, reference range: > 4.0 mg/L)
+10. Reuse_Suitability  : Classification label ("Suitable for Reuse", "Suitable After Treatment", "Not Recommended")
+
+REACT INTEGRATION & PYTHON ML BACKEND REPLACEMENT:
+In `src/services/decisionEngine.js`, the local prediction function `predictGreywater(params)` can be swapped with a live Machine Learning API endpoint (e.g. Python FastAPI / Flask Random Forest model):
+
+```javascript
+export async function predictGreywaterAsync(params) {
+  try {
+    const res = await fetch('http://localhost:5000/api/predict', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(params)
+    });
+    return await res.json();
+  } catch (err) {
+    console.warn("Backend API unavailable, using local client engine:", err);
+    return predictGreywater(params);
+  }
+}
+```
+================================================================================

@@ -1,0 +1,48 @@
+/* ==========================================================================
+   GreyAI React — Responsive Stylesheet (responsive.css)
+   ========================================================================== */
+
+@media (max-width: 1280px) {
+  .hero-section {
+    grid-template-columns: 1fr;
+    text-align: center;
+    gap: 2.5rem;
+    padding-top: 120px;
+  }
+  .hero-content h1 { font-size: 2.8rem; }
+  .hero-description { margin: 0 auto 2rem auto; }
+  .hero-buttons { justify-content: center; }
+  .hero-stats { grid-template-columns: repeat(2, 1fr); }
+  .workflow-grid { grid-template-columns: repeat(3, 1fr); }
+  .features-grid { grid-template-columns: repeat(2, 1fr); }
+  .kpi-grid { grid-template-columns: repeat(2, 1fr); }
+  .params-cards-grid { grid-template-columns: repeat(2, 1fr); }
+  .predict-form-grid { grid-template-columns: repeat(2, 1fr); }
+  .suitability-grid { grid-template-columns: repeat(3, 1fr); }
+}
+
+@media (max-width: 1023px) {
+  .app-sidebar { transform: translateX(-100%); }
+  .app-sidebar.show { transform: translateX(0); }
+  .app-main { margin-left: 0; }
+  .mobile-nav-toggle { display: block; }
+  .charts-grid-2x2 { grid-template-columns: 1fr; }
+  .analysis-hero-grid { grid-template-columns: 1fr; }
+  .dataset-stats-bar { grid-template-columns: repeat(3, 1fr); }
+}
+
+@media (max-width: 767px) {
+  .nav-links { display: none; }
+  .hero-content h1 { font-size: 2.2rem; }
+  .hero-buttons { flex-direction: column; width: 100%; }
+  .hero-buttons .btn { width: 100%; }
+  .hero-stats { grid-template-columns: 1fr 1fr; }
+  .workflow-grid { grid-template-columns: 1fr; }
+  .features-grid { grid-template-columns: 1fr; }
+  .kpi-grid { grid-template-columns: 1fr; }
+  .params-cards-grid { grid-template-columns: 1fr; }
+  .predict-form-grid { grid-template-columns: 1fr; }
+  .suitability-grid { grid-template-columns: 1fr; }
+  .topbar-search { display: none; }
+  .dataset-stats-bar { grid-template-columns: 1fr 1fr; }
+}
